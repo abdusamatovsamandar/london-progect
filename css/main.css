@@ -1,0 +1,30 @@
+:root{
+  /* COLORS */
+  --color-pimary: #BB2339;
+}
+
+
+*{
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  margin: 0;
+}
+
+.contanier{
+  width: 100%;
+  max-width: 1330px;
+  padding: 0 15px;
+}
+
+ul, ol{
+  list-style: none;
+}
+
+a{
+  text-decoration: none;
+}
+
