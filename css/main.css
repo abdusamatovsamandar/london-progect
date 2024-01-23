@@ -17,6 +17,7 @@ body{
 .contanier{
   width: 100%;
   max-width: 1330px;
+  margin: 0 auto;
   padding: 0 15px;
 }
 
@@ -28,3 +29,47 @@ a{
   text-decoration: none;
 }
 
+/* --------------- HEADER SECTION STYLE START --------------- */
+.site-header{
+  background-color: var(--color-pimary);
+  padding: 26px 0 26px;
+}
+
+.site-header__wrapper{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.site-nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.site-nav__list{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 40px;
+  gap: 40px;
+}
+
+.site-nav__item{
+  color: #FFF;
+  font-size: 16px;
+  letter-spacing: 0.64px;
+}
+
+.site-nav__btn{
+  color: #FFF;
+  background-color: transparent;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 175%;
+  letter-spacing: 0.8px;
+  padding: 10px 40px;
+  border: 1px solid #fff;
+  border-radius: 100px;
+}
+/* --------------- HEADER SECTION STYLE END --------------- */
