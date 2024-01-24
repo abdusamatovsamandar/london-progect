@@ -29,6 +29,15 @@ a{
   text-decoration: none;
 }
 
+.btn{
+  color: #FFF;
+  background-color: transparent;
+  font-size: 16px;
+  line-height: 175%;
+  border: 1px solid #fff;
+  border-radius: 100px;
+}
+
 /* --------------- HEADER SECTION STYLE START --------------- */
 .site-header{
   background-color: var(--color-pimary);
@@ -62,14 +71,60 @@ a{
 }
 
 .site-nav__btn{
-  color: #FFF;
-  background-color: transparent;
-  font-size: 16px;
   font-weight: 600;
-  line-height: 175%;
   letter-spacing: 0.8px;
   padding: 10px 40px;
-  border: 1px solid #fff;
-  border-radius: 100px;
 }
 /* --------------- HEADER SECTION STYLE END --------------- */
+
+/* --------------- MAIN SECTION STYLE START --------------- */
+.site-main{
+  background-color: #FFF;
+}
+
+/* ---------- HERO SECTION STATR ---------- */
+.hero{
+  background-color: var(--color-pimary);
+  background-image: url(../assets/images/hero-background.png);
+  background-repeat: no-repeat;
+  background-size: 825px 604px;
+  background-position: calc(50% + 415px) 80px ;
+  padding: 144px 0 292px;
+}
+
+.hero-info{
+  width: 555px;
+}
+
+.hero-info__start-title{
+  color: #FFF;
+  font-size: 23px;
+  font-weight: 700;
+  line-height: 130%;
+  letter-spacing: 0.92px;
+  margin: 0 0 25px;
+}
+
+.hero-info__title{
+  color: #FFF;
+  font-size: 90px;
+  font-weight: 700;
+  line-height: 130%;
+  letter-spacing: 3.6px;
+  margin: 0 0 20px 0;
+}
+
+.hero-info__desc{
+  color: #FFF;
+  font-size: 16px;
+  line-height: 175%;
+  letter-spacing: 0.64px;
+  margin-bottom: 40px;
+}
+
+.hero-info__btn{
+  font-weight: 700;
+  padding: 8px 32px;
+}
+/* ---------- HERO SECTION END ---------- */
+/* --------------- MAIN SECTION STYLE END --------------- */
