@@ -23,6 +23,8 @@ body{
 
 ul, ol{
   list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
 a{
@@ -36,6 +38,12 @@ a{
   line-height: 175%;
   border: 1px solid #fff;
   border-radius: 100px;
+}
+
+.item-title{
+  color: #242424;
+  font-size: 18px;
+  font-weight: 600;
 }
 
 /* --------------- HEADER SECTION STYLE START --------------- */
@@ -127,4 +135,87 @@ a{
   padding: 8px 32px;
 }
 /* ---------- HERO SECTION END ---------- */
+
+/* ---------- POPULAR SECTION START ---------- */
+.popular{
+  background-color: #F8F8F8;
+  padding: 120px 0;
+}
+
+.popular-header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.popular-header__title{
+  color: var(--color-pimary);
+  font-size: 48px;
+  font-weight: 500;
+  letter-spacing: 1.44px;
+  margin: 0;
+}
+
+.popular-header__btn-wrapper{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 102px;
+}
+
+.popular-header__btn{
+  width: 40px;
+  height: 40px;
+  border: 1px solid #646464;
+  border-radius: 6px;
+  background-color: transparent;
+}
+
+.popular-header__btn:hover,
+.popular-header__btn:hover i{
+  border-color: var(--color-pimary);
+  color: #000;
+}
+
+.popular-header__btn i{
+  font-size: 24px;
+  color: #646464;
+}
+
+.popular-list{
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  margin-top: 40px;
+  gap: 20px;
+}
+
+.popular-item{
+  width: 310px;
+  border-radius: 14px;
+  background-color: #FFF;
+  padding: 20px 20px 40px 20px;
+}
+
+.popular-item__title{
+  margin-bottom: 20px;
+}
+
+.popular-item__stat i {
+  color: #FFEA28;
+  margin-bottom: 20px;
+}
+
+.popular-item__stat i:last-child{
+  color: #c1c1c1;
+}
+
+.popular-item__price{
+  color: var(--color-pimary);
+  font-size: 24px;
+  font-weight: 700;
+}
+
+
+/* ---------- POPULAR SECTION END ---------- */
 /* --------------- MAIN SECTION STYLE END --------------- */
