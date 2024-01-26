@@ -87,7 +87,7 @@ a{
   gap: 40px;
 }
 
-.site-nav__item{
+.site-nav__item-link{
   color: #FFF;
   font-size: 16px;
   letter-spacing: 0.64px;
