@@ -30,6 +30,15 @@ a{
   text-decoration: none;
 }
 
+.header__text{
+  color: #242424;
+  font-size: 23px;
+  font-weight: 700;
+  line-height: 130%;
+  letter-spacing: 0.92px;
+  margin: 0 0 8px 0;
+}
+
 .title{
   color: var(--color-pimary);
   font-size: 48px;
