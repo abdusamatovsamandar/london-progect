@@ -15,6 +15,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
   <!-- HEADER SECTION START -->
@@ -357,9 +358,9 @@
       <!-- CUSTOMERS SECTION START -->
       <section class="customers">
         <div class="contanier">
-          <div class="customers__wrapper">
+          <!-- <div class="customers__wrapper"> -->
             <div class="customers-header">
-              <p class="customers-header__test">
+              <p class="customers-header__text">
                 Testimony
               </p>
               <img class="customers-header__img" src="assets/icons/spoon.png" alt="icon">
@@ -379,11 +380,68 @@
                 </p>
                 
                 <div class="customers-item__stat">
-                  <time datetime="2022-02-06"><i class="fa-thin fa-calendar"></i>06/02/2022</time>
+                  <time class="customers-item__stat-date" datetime="2022-02-06">06/02/2022</time>
+                  
+                  <time class="customers-item__stat-time" datetime="T11-15">11:15</time>
+
+                  <span class="customers-item__stat-pm">222</span>
+                </div>
+              </li>
+              
+              <li class="customers-item">
+                <h3 class="customers-item__username">
+                  Maria
+                </h3>
+                
+                <p class="customers-item__desc">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing sit. auctor sit iaculis in arcu. Vulputate nulla lobortis mauris eget sit. Nulla scelerisque scelerisq...
+                </p>
+                
+                <div class="customers-item__stat">
+                  <time class="customers-item__stat-date" datetime="2022-02-06">06/02/2022</time>
+                  
+                  <time class="customers-item__stat-time" datetime="T11-15">11:15</time>
+
+                  <span class="customers-item__stat-pm">222</span>
+                </div>
+              </li>
+              
+              <li class="customers-item">
+                <h3 class="customers-item__username">
+                  Maria
+                </h3>
+                
+                <p class="customers-item__desc">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing sit. auctor sit iaculis in arcu. Vulputate nulla lobortis mauris eget sit. Nulla scelerisque scelerisq...
+                </p>
+                
+                <div class="customers-item__stat">
+                  <time class="customers-item__stat-date" datetime="2022-02-06">06/02/2022</time>
+                  
+                  <time class="customers-item__stat-time" datetime="T11-15">11:15</time>
+
+                  <span class="customers-item__stat-pm">222</span>
                 </div>
               </li>
             </ul>
-          </div>
+            
+            <div class="customers-btn__wrapper">
+              <button class="customers-btn">
+                <i class="fa-solid fa-chevron-left"></i>
+              </button>
+              
+              <span class="customers-items__number">
+                01
+                ---
+                02
+                03
+                04
+              </span>
+              <button class="customers-btn">
+                <i class="fa-solid fa-chevron-right"></i>
+              </button></div>
+            </div>
+          <!-- </div> -->
         </div>
       </section>
       <!-- CUSTOMERS SECTION END -->
